@@ -1,0 +1,47 @@
+export const mixin = {
+    data() {
+        return {
+            genres: [
+                "Adventure",
+                "Art & Photography",
+                "Biography",
+                "Business & Finance",
+                "Classic",
+                "Crime",
+                "Cooking",
+                "Crafts, Hobbies & Home",
+                "Detective",
+                "Dystopia",
+                "Education & Teaching",
+                "Engineering, Technology", 
+                "Families & Relationships",
+                "Fantasy",
+                "Food & Drink",
+                "Health & Fitness",
+                "Historical Fiction",
+                "History",
+                "Home & Garden",
+                "Horror",
+                "Graphic Novel",
+                "Law & Criminology",
+                "Memoir & Autobiography",
+                "Motivational / Inspirational",
+                "Mystery",
+                "Language",
+                "Personal Development",
+                "Philosophy",
+                "Play",
+                "Politics",
+                "Psychology",
+                "Religion & Spirituality",
+                "Romance",
+                "Science Fiction",
+                "Short Story",
+                "Social Sciences",
+                "Sport & Fitness",
+                "Thriller",
+                "Travel",
+                "True Crime"]
+        }
+    }
+}

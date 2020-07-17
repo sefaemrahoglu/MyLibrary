@@ -1,0 +1,35 @@
+.rating {
+    display: flex;
+    flex-direction: column;
+    padding: 0px;
+    margin : 0px;
+    color: grey;
+    width: 250px;
+    .list {
+        padding: 0;
+        margin : 0;
+        &:hover { 
+            .star {
+                color: #FFD700;
+            }
+        }
+
+        .star {
+            display: inline-block;
+            transition: all .2s ease-in-out; 
+            cursor: pointer;
+            &:hover {
+               
+                
+                ~ .star:not(.active) {
+                    color: inherit;
+                }
+            }
+           
+            &.active {
+                color: #35495e;
+
+            }
+        }
+    }
+}
